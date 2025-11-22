@@ -10,6 +10,9 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.58.0",
     "ethers": "^6.15.0",
@@ -23,7 +26,7 @@
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
-    "@nomicfoundation/hardhat-ethers": "^4.0.2",
+    "@nomicfoundation/hardhat-ethers": "^4.0.0",
     "@nomicfoundation/hardhat-ignition": "^3.0.3",
     "@nomicfoundation/hardhat-ignition-ethers": "^3.0.3",
     "@nomicfoundation/hardhat-network-helpers": "^3.0.1",
@@ -46,7 +49,7 @@
     "eslint-plugin-react-refresh": "^0.4.11",
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "globals": "^15.9.0",
-    "hardhat": "^3.0.9",
+    "hardhat": "^3.0.0",
     "hardhat-gas-reporter": "^2.3.0",
     "mocha": "^11.7.4",
     "postcss": "^8.4.35",
